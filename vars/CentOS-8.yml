@@ -1,0 +1,25 @@
+---
+basic_software_packages:
+  - bind-utils
+  - bash-completion
+  - git
+  - htop
+  - iftop
+  - ipa-client
+  - iperf3
+  - lsof
+  - mailx
+  - net-tools
+  - nfs-utils
+  - nmap-ncat
+  - qperf
+  - rsync
+  - screen
+  - sudo
+  - tar
+  - tmux
+  - traceroute
+  - unzip
+  - vim
+  - yum-utils
+  - zsh

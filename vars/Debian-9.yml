@@ -1,0 +1,22 @@
+---
+basic_software_packages:
+  - bind9utils
+  - bash-completion
+  - git
+  - htop
+  - iftop
+  - iperf3
+  - lsof
+  - bsd-mailx
+  - net-tools
+  - nfs-common
+  - nmap
+  - rsync
+  - screen
+  - sudo
+  - systemd-cron
+  - tar
+  - tmux
+  - unzip
+  - vim
+  - zsh

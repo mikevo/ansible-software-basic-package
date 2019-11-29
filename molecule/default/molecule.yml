@@ -1,0 +1,37 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: docker
+lint:
+  name: yamllint
+platforms:
+  - name: centos7
+    image: "geerlingguy/docker-centos7-ansible:latest"
+    pre_build_image: true
+  - name: centos8
+    image: "geerlingguy/docker-centos8-ansible:latest"
+    pre_build_image: true
+  - name: debian9
+    image: "geerlingguy/docker-debian9-ansible:latest"
+    pre_build_image: true
+  - name: debian10
+    image: "geerlingguy/docker-debian10-ansible:latest"
+    pre_build_image: true
+  - name: fedora30
+    image: "geerlingguy/docker-fedora30-ansible:latest"
+    pre_build_image: true
+  - name: fedora31
+    image: "geerlingguy/docker-fedora31-ansible:latest"
+    pre_build_image: true
+  - name: ubuntu1804
+    image: "geerlingguy/docker-ubuntu1804-ansible:latest"
+    pre_build_image: true
+provisioner:
+  name: ansible
+  lint:
+    name: ansible-lint
+verifier:
+  name: testinfra
+  lint:
+    name: flake8
