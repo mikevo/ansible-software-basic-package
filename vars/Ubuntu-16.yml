@@ -1,6 +1,6 @@
 ---
 basic_software_packages:
-  - bind9-utils
+  - bind9utils
   - bash-completion
   - git
   - htop

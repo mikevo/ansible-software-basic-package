@@ -24,6 +24,9 @@ platforms:
   - name: fedora31
     image: "geerlingguy/docker-fedora31-ansible:latest"
     pre_build_image: true
+  - name: ubuntu1604
+    image: "geerlingguy/docker-ubuntu1604-ansible:latest"
+    pre_build_image: true
   - name: ubuntu1804
     image: "geerlingguy/docker-ubuntu1804-ansible:latest"
     pre_build_image: true

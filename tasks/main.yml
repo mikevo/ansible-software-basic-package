@@ -7,6 +7,11 @@
     - "{{ ansible_distribution }}.yml"
     - "{{ ansible_os_family }}.yml"
 
+- name: update apt cache
+  apt:
+    update_cache: yes
+  when: ansible_os_family == 'Debian'
+
 - name: ensure basic software packages are installed
   package:
     pkg: "{{ basic_software_packages }}"
