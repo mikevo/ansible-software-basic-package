@@ -20,6 +20,7 @@ basic_software_packages:
   - tar
   - tmux
   - traceroute
+  - tree
   - unzip
   - vim
   - yum-utils

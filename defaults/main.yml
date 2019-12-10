@@ -1,2 +1,4 @@
 ---
 # defaults file for software_basic_package
+basic_package_software_python_packages:
+  - icdiff

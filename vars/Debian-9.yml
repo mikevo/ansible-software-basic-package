@@ -17,6 +17,7 @@ basic_software_packages:
   - systemd-cron
   - tar
   - tmux
+  - tree
   - unzip
   - vim
   - zsh

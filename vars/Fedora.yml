@@ -22,6 +22,7 @@ basic_software_packages:
   - tar
   - tmux
   - tmux-powerline
+  - tree
   - traceroute
   - unzip
   - vim
