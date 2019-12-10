@@ -13,6 +13,8 @@ basic_software_packages:
   - net-tools
   - nfs-utils
   - nmap-ncat
+  - python-pip
+  - python3-pip
   - qperf
   - rsync
   - screen

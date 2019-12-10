@@ -15,6 +15,7 @@ basic_software_packages:
   - nfs-utils
   - nmap-ncat
   - powerline
+  - python3-pip
   - qperf
   - rsync
   - screen
