@@ -19,6 +19,7 @@ basic_software_packages:
   - qperf
   - rsync
   - screen
+  - setools-console
   - sudo
   - tar
   - tmux
