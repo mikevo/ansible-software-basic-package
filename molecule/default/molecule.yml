@@ -3,8 +3,7 @@ dependency:
   name: galaxy
 driver:
   name: docker
-lint:
-  name: yamllint
+lint: 'yamllint'
 platforms:
   - name: centos7
     image: "geerlingguy/docker-centos7-ansible:latest"
