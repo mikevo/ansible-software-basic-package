@@ -2,6 +2,7 @@
 basic_software_packages:
   - bind9utils
   - bash-completion
+  - bmon
   - git
   - htop
   - freeipa-client

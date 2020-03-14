@@ -2,6 +2,7 @@
 basic_software_packages:
   - bind-utils
   - bash-completion
+  - bmon
   - git
   - htop
   - iftop

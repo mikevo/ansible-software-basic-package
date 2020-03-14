@@ -2,7 +2,9 @@
 basic_software_packages:
   - bind-utils
   - bash-completion
+  - bmon
   - dnf-utils
+  - exa
   - fdupes
   - git
   - htop
