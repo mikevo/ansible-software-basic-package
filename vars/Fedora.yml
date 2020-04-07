@@ -16,11 +16,14 @@ basic_software_packages:
   - net-tools
   - nfs-utils
   - nmap-ncat
+  - policycoreutils-sandbox
+  - policycoreutils-python-utils
   - powerline
   - python3-pip
   - qperf
   - rsync
   - screen
+  - selinux-policy-sandbox
   - setools-console
   - sudo
   - tar
