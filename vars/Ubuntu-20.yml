@@ -1,0 +1,30 @@
+---
+basic_software_packages:
+  - bind9utils
+  - bash-completion
+  - bmon
+#  - exa
+  - git
+  - htop
+  - freeipa-client
+  - iftop
+  - iperf3
+  - lsof
+  - bsd-mailx
+  - net-tools
+  - nfs-common
+  - nmap
+  - powerline
+  - python3-pip
+  - qperf
+  - rsync
+  - screen
+  - sudo
+  - systemd-cron
+  - tar
+  - tmux
+  - tree
+  - traceroute
+  - unzip
+  - vim
+  - zsh
