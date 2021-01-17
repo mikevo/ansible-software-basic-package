@@ -12,6 +12,7 @@ basic_software_packages:
   - net-tools
   - nfs-common
   - nmap
+  - powerline
   - python-pip
   - python3-pip
   - rsync
