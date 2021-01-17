@@ -9,6 +9,7 @@ basic_software_packages:
   - freeipa-client
   - iftop
   - iperf3
+  - jhead
   - lsof
   - bsd-mailx
   - net-tools
@@ -25,6 +26,7 @@ basic_software_packages:
   - tmux
   - tree
   - traceroute
+  - util-linux
   - unzip
   - vim
   - zsh

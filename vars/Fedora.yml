@@ -4,6 +4,7 @@ basic_software_packages:
   - bash-completion
   - bmon
   - dnf-utils
+  - dnf-plugin-system-upgrade
   - exa
   - fdupes
   - git
@@ -11,6 +12,7 @@ basic_software_packages:
   - iftop
   - ipa-client
   - iperf3
+  - jhead
   - lsof
   - mailx
   - net-tools
@@ -31,6 +33,8 @@ basic_software_packages:
   - tmux-powerline
   - tree
   - traceroute
+  - util-linux
+  - util-linux-user
   - unzip
   - vim
   - zsh

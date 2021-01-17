@@ -17,11 +17,8 @@ platforms:
   - name: debian10
     image: "geerlingguy/docker-debian10-ansible:latest"
     pre_build_image: true
-  - name: fedora31
-    image: "geerlingguy/docker-fedora31-ansible:latest"
-    pre_build_image: true
-  - name: fedora32
-    image: "geerlingguy/docker-fedora32-ansible:latest"
+  - name: fedora33
+    image: "geerlingguy/docker-fedora33-ansible:latest"
     pre_build_image: true
   - name: ubuntu1604
     image: "geerlingguy/docker-ubuntu1604-ansible:latest"

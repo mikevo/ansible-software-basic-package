@@ -8,6 +8,7 @@ basic_software_packages:
   - iftop
   - ipa-client
   - iperf3
+  - jhead
   - lsof
   - mailx
   - NetworkManager-glib
@@ -28,6 +29,7 @@ basic_software_packages:
   - tmux
   - traceroute
   - tree
+  - util-linux
   - unzip
   - vim
   - yum-utils
