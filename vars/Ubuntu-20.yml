@@ -19,6 +19,7 @@ basic_software_packages:
   - python3-pip
   - qperf
   - rsync
+  - stow
   - screen
   - sudo
   - systemd-cron

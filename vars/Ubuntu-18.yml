@@ -20,6 +20,7 @@ basic_software_packages:
   - python3-pip
   - rsync
   - screen
+  - stow
   - sudo
   - systemd-cron
   - tar
