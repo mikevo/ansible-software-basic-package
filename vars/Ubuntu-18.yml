@@ -10,6 +10,7 @@ basic_software_packages:
   - iftop
   - iperf3
   - jhead
+  - lm-sensors
   - lsof
   - bsd-mailx
   - net-tools
