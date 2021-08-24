@@ -5,7 +5,6 @@ basic_software_packages:
   - bmon
   - git
   - htop
-  - freeipa-client
   - iftop
   - iperf3
   - jhead

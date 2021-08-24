@@ -6,7 +6,6 @@ basic_software_packages:
   - exa
   - git
   - htop
-  - freeipa-client
   - iftop
   - iperf3
   - jhead

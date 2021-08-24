@@ -6,7 +6,6 @@ basic_software_packages:
   - git
   - htop
   - iftop
-  - ipa-client
   - iperf3
   - jhead
   - lm_sensors
