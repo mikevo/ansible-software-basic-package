@@ -1,19 +1,19 @@
 ---
 # tasks file for software_basic_package
 - name: include os dependent variables
-  include_vars: "{{ item }}"
+  ansible.builtin.include_vars: "{{ item }}"
   with_first_found:
     - "{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.yml"
     - "{{ ansible_distribution }}.yml"
     - "{{ ansible_os_family }}.yml"
 
 - name: update apt cache
-  apt:
+  ansible.builtin.apt:
     update_cache: yes
   when: ansible_os_family == 'Debian'
 
 - name: ensure basic software packages are installed
-  package:
+  ansible.builtin.package:
     pkg: "{{ basic_software_packages }}"
     state: latest
   tags:
@@ -21,7 +21,7 @@
     - install
 
 - name: ensure basic software python packages are installed
-  pip:
+  ansible.builtin.pip:
     name: "{{ item }}"
     state: latest
   loop: "{{ basic_package_software_python_packages }}"
