@@ -3,7 +3,7 @@ basic_software_packages:
   - bind9utils
   - bash-completion
   - bmon
-#  - exa
+  - borgbackup
   - git
   - htop
   - iftop
@@ -11,23 +11,21 @@ basic_software_packages:
   - jhead
   - lm-sensors
   - lsof
-  - bsd-mailx
   - net-tools
   - nfs-common
   - nmap
   - powerline
   - python3-pip
-  - qperf
   - rsync
   - stow
-  - screen
   - sudo
   - systemd-cron
   - tar
   - tmux
-  - tree
   - traceroute
+  - tree
   - util-linux
   - unzip
   - vim
+  - zip
   - zsh

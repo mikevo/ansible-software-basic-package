@@ -2,33 +2,33 @@
 dependency:
   name: galaxy
 driver:
-  name: podman
+  name: docker
 platforms:
-  - name: centos7
+  - name: basic-centos7
     image: "geerlingguy/docker-centos7-ansible:latest"
     pre_build_image: true
-  - name: centos8
+  - name: basic-centos8
     image: "geerlingguy/docker-centos8-ansible:latest"
     pre_build_image: true
-  - name: debian9
-    image: "geerlingguy/docker-debian9-ansible:latest"
+  - name: basic-rockeylinux8
+    image: "geerlingguy/docker-rockylinux8-ansible"
     pre_build_image: true
-  - name: debian10
+  - name: basic-debian10
     image: "geerlingguy/docker-debian10-ansible:latest"
     pre_build_image: true
-  - name: fedora33
-    image: "geerlingguy/docker-fedora33-ansible:latest"
+  - name: basic-debian11
+    image: "geerlingguy/docker-debian11-ansible:latest"
     pre_build_image: true
-  - name: fedora34
+  - name: basic-fedora34
     image: "geerlingguy/docker-fedora34-ansible:latest"
     pre_build_image: true
-  - name: ubuntu1604
+  - name: basic-ubuntu1604
     image: "geerlingguy/docker-ubuntu1604-ansible:latest"
     pre_build_image: true
-  - name: ubuntu1804
+  - name: basic-ubuntu1804
     image: "geerlingguy/docker-ubuntu1804-ansible:latest"
     pre_build_image: true
-  - name: ubuntu2004
+  - name: basic-ubuntu2004
     image: "geerlingguy/docker-ubuntu2004-ansible:latest"
     pre_build_image: true
 provisioner:

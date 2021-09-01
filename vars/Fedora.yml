@@ -3,6 +3,7 @@ basic_software_packages:
   - bind-utils
   - bash-completion
   - bmon
+  - borgbackup
   - dnf-utils
   - dnf-plugin-system-upgrade
   - exa
@@ -14,7 +15,6 @@ basic_software_packages:
   - jhead
   - lm_sensors
   - lsof
-  - mailx
   - net-tools
   - nfs-utils
   - nmap-ncat
@@ -22,9 +22,7 @@ basic_software_packages:
   - policycoreutils-python-utils
   - powerline
   - python3-pip
-  - qperf
   - rsync
-  - screen
   - selinux-policy-sandbox
   - setools-console
   - stow
@@ -32,10 +30,11 @@ basic_software_packages:
   - tar
   - tmux
   - tmux-powerline
-  - tree
   - traceroute
+  - tree
   - util-linux
   - util-linux-user
   - unzip
   - vim
+  - zip
   - zsh

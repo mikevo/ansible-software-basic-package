@@ -2,8 +2,7 @@
 basic_software_packages:
   - bind-utils
   - bash-completion
-#  - bmon
-#  - exa
+  - borgbackup
   - git
   - htop
   - iftop
@@ -11,16 +10,13 @@ basic_software_packages:
   - jhead
   - lm_sensors
   - lsof
-  - mailx
   - net-tools
   - nfs-utils
   - nmap-ncat
   - policycoreutils-sandbox
   - policycoreutils-python-utils
   - python3-pip
-  - qperf
   - rsync
-  - screen
   - selinux-policy-sandbox
   - setools-console
   - stow
@@ -34,4 +30,5 @@ basic_software_packages:
   - unzip
   - vim
   - yum-utils
+  - zip
   - zsh
