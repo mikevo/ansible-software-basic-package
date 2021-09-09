@@ -11,6 +11,7 @@ basic_software_packages:
   - jhead
   - lm_sensors
   - lsof
+  - mutt
   - NetworkManager-glib
   - net-tools
   - nfs-utils
