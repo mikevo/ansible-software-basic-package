@@ -22,6 +22,9 @@ platforms:
   - name: basic-fedora34
     image: "geerlingguy/docker-fedora34-ansible:latest"
     pre_build_image: true
+  - name: basic-fedora35
+    image: "fedora:35"
+    pre_build_image: true
   - name: basic-ubuntu1604
     image: "geerlingguy/docker-ubuntu1604-ansible:latest"
     pre_build_image: true
@@ -31,7 +34,8 @@ platforms:
   - name: basic-ubuntu2004
     image: "geerlingguy/docker-ubuntu2004-ansible:latest"
     pre_build_image: true
-provisioner:
-  name: ansible
-verifier:
-  name: ansible
+lint: |
+  set -e
+  yamllint .
+  ansible-lint
+  flake8
