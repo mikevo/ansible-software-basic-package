@@ -1,9 +1,10 @@
 ---
 basic_software_packages:
-  - bind9utils
   - bash-completion
+  - bind9utils
   - bmon
   - borgbackup
+  - cron
   - git
   - htop
   - iftop
@@ -20,13 +21,12 @@ basic_software_packages:
   - rsync
   - stow
   - sudo
-  - systemd-cron
   - tar
   - tmux
   - traceroute
   - tree
-  - util-linux
   - unzip
+  - util-linux
   - vim
   - zip
   - zsh
