@@ -7,7 +7,7 @@ platforms:
   - name: basic-centos7
     image: "geerlingguy/docker-centos7-ansible:latest"
     pre_build_image: true
-  - name: basic-rockeylinux8
+  - name: basic-rockylinux8
     image: "geerlingguy/docker-rockylinux8-ansible"
     pre_build_image: true
   - name: basic-debian10
