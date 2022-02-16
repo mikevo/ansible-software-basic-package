@@ -7,9 +7,6 @@ platforms:
   - name: basic-centos7
     image: "geerlingguy/docker-centos7-ansible:latest"
     pre_build_image: true
-  - name: basic-centos8
-    image: "geerlingguy/docker-centos8-ansible:latest"
-    pre_build_image: true
   - name: basic-rockeylinux8
     image: "geerlingguy/docker-rockylinux8-ansible"
     pre_build_image: true
@@ -18,9 +15,6 @@ platforms:
     pre_build_image: true
   - name: basic-debian11
     image: "geerlingguy/docker-debian11-ansible:latest"
-    pre_build_image: true
-  - name: basic-fedora34
-    image: "geerlingguy/docker-fedora34-ansible:latest"
     pre_build_image: true
   - name: basic-fedora35
     image: "fedora:35"
