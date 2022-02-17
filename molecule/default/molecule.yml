@@ -5,28 +5,34 @@ driver:
   name: docker
 platforms:
   - name: basic-centos7
-    image: "geerlingguy/docker-centos7-ansible:latest"
+    image: "centos:7"
     pre_build_image: true
   - name: basic-rockylinux8
-    image: "geerlingguy/docker-rockylinux8-ansible"
+    image: "rockylinux:8"
     pre_build_image: true
   - name: basic-debian10
-    image: "geerlingguy/docker-debian10-ansible:latest"
+    image: "debian:10"
     pre_build_image: true
   - name: basic-debian11
-    image: "geerlingguy/docker-debian11-ansible:latest"
+    image: "debian:11"
+    pre_build_image: true
+  - name: basic-debian-testing
+    image: "debian:testing"
     pre_build_image: true
   - name: basic-fedora35
     image: "fedora:35"
     pre_build_image: true
   - name: basic-ubuntu1604
-    image: "geerlingguy/docker-ubuntu1604-ansible:latest"
+    image: "ubuntu:16.04"
     pre_build_image: true
   - name: basic-ubuntu1804
-    image: "geerlingguy/docker-ubuntu1804-ansible:latest"
+    image: "ubuntu:18.04"
     pre_build_image: true
   - name: basic-ubuntu2004
-    image: "geerlingguy/docker-ubuntu2004-ansible:latest"
+    image: "ubuntu:20.04"
+    pre_build_image: true
+  - name: basic-ubuntu2204
+    image: "ubuntu:22.04"
     pre_build_image: true
 lint: |
   set -e

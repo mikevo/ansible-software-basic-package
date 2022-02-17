@@ -12,6 +12,20 @@
     update_cache: yes
   when: ansible_os_family == 'Debian'
 
+- name: enable epel repo
+  block:
+    - name: enable powertools
+      ansible.builtin.import_role:
+        name: robertdebock.powertools
+
+    - name: install epel repo
+      ansible.builtin.package:
+        pkg: epel-release
+        state: present
+  when:
+    - "ansible_facts['os_family'] == 'RedHat'"
+    - "not ansible_facts['distribution'] == 'Fedora'"
+
 - name: ensure basic software packages are installed
   ansible.builtin.package:
     pkg: "{{ basic_software_packages }}"
