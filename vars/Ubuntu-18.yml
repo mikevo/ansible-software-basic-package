@@ -1,5 +1,6 @@
 ---
 basic_software_packages:
+  - apt-transport-https
   - bash-completion
   - bind9utils
   - bmon
