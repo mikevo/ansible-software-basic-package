@@ -8,6 +8,7 @@ basic_software_packages:
   - dnf-plugin-system-upgrade
   - exa
   - fdupes
+  - firejail
   - git
   - htop
   - iftop

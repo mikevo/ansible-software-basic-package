@@ -1,11 +1,16 @@
 ---
 basic_software_packages:
+  - apparmor
+  - apparmor-profiles
+  - apparmor-profiles-extra
   - apt-transport-https
   - bash-completion
   - bind9utils
   - bmon
   - borgbackup
   - cron
+  - firejail
+  - firejail-profiles
   - git
   - htop
   - iftop
@@ -24,6 +29,7 @@ basic_software_packages:
   - sudo
   - tar
   - tmux
+  - traceroute
   - tree
   - unzip
   - util-linux
