@@ -8,7 +8,9 @@ basic_software_packages:
   - bind9utils
   - bmon
   - borgbackup
+  - ca-certificates
   - cron
+  - debian-goodies
   - firejail
   - firejail-profiles
   - git
@@ -19,6 +21,7 @@ basic_software_packages:
   - lm-sensors
   - lsof
   - mutt
+  - needrestart
   - net-tools
   - nfs-common
   - nmap

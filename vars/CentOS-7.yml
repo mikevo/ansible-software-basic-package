@@ -1,5 +1,6 @@
 ---
 basic_software_packages:
+  - ca-certificates
   - bind-utils
   - bash-completion
   - bmon
@@ -12,6 +13,7 @@ basic_software_packages:
   - lm_sensors
   - lsof
   - mutt
+  - needrestart
   - NetworkManager-glib
   - net-tools
   - nfs-utils

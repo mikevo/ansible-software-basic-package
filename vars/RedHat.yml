@@ -1,8 +1,12 @@
 ---
 basic_software_packages:
+  - ca-certificates
   - bind-utils
   - bash-completion
+  - bmon
   - borgbackup
+  - dnf-utils
+  - fdupes
   - git
   - htop
   - iftop
@@ -11,11 +15,13 @@ basic_software_packages:
   - lm_sensors
   - lsof
   - mutt
+  - needrestart
   - net-tools
   - nfs-utils
   - nmap-ncat
   - policycoreutils-sandbox
   - policycoreutils-python-utils
+  - powerline
   - python3-pip
   - rsync
   - selinux-policy-sandbox
@@ -24,6 +30,7 @@ basic_software_packages:
   - sudo
   - tar
   - tmux
+  - tmux-powerline
   - traceroute
   - tree
   - util-linux

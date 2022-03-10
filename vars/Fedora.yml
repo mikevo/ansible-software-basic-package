@@ -1,5 +1,6 @@
 ---
 basic_software_packages:
+  - ca-certificates
   - bind-utils
   - bash-completion
   - bmon
@@ -17,6 +18,7 @@ basic_software_packages:
   - lm_sensors
   - lsof
   - mutt
+  - needrestart
   - net-tools
   - nfs-utils
   - nmap-ncat
@@ -38,5 +40,6 @@ basic_software_packages:
   - util-linux-user
   - unzip
   - vim
+  - yum-utils
   - zip
   - zsh
