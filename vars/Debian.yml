@@ -27,6 +27,7 @@ basic_software_packages:
   - nmap
   - powerline
   - python3-pip
+  - python3-venv
   - rsync
   - stow
   - sudo

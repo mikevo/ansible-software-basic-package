@@ -28,6 +28,7 @@ basic_software_packages:
   - powerline
   - python-pip
   - python3-pip
+  - python3-venv
   - rsync
   - stow
   - sudo
