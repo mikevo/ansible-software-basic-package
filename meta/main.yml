@@ -4,28 +4,8 @@ galaxy_info:
   description: Installs packages needed for development.
   company: none
   license: BSD
-
-  min_ansible_version: 1.2
-
-  platforms:
-    - name: Fedora
-      versions:
-        - 31
-        - 32
-    - name: EL
-      versions:
-        - 7
-        - 8
-    - name: Debian
-      versions:
-        - 9
-        - 10
-    - name: Ubuntu
-      versions:
-        - 16.04
-        - 18.04
-
-  galaxy_tags: []
+  role_name: software_basic_package
+  namespace: mikevo
 
 dependencies: []
 # List your role dependencies here, one per line. Be sure to remove the '[]' above,

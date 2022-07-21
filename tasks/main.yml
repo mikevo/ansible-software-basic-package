@@ -18,6 +18,9 @@
       ansible.builtin.import_role:
         name: robertdebock.powertools
 
+    - name: Force all notified handlers to run at this point
+      ansible.builtin.meta: flush_handlers
+
     - name: install epel repo
       ansible.builtin.package:
         pkg: epel-release

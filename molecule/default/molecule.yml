@@ -7,8 +7,8 @@ platforms:
   - name: basic-centos7
     image: "centos:7"
     pre_build_image: true
-  - name: basic-rockylinux8
-    image: "rockylinux:8"
+  - name: basic--almalinux8
+    image: "almalinux:8"
     pre_build_image: true
   - name: basic-debian10
     image: "debian:10"
