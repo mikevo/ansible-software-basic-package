@@ -1,3 +1,5 @@
 ---
 - src: robertdebock.bootstrap
-# - src: robertdebock.powertools
+- src: https://github.com/mikevo/ansible-role-powertools
+  version: master
+  name: robertdebock.powertools

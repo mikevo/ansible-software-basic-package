@@ -39,3 +39,4 @@ lint: |
   yamllint .
   ansible-lint
   flake8
+role_name_check: 1
