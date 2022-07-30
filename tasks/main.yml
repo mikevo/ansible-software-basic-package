@@ -6,11 +6,16 @@
     - "{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.yml"
     - "{{ ansible_distribution }}.yml"
     - "{{ ansible_os_family }}.yml"
+  tags:
+    - always
 
 - name: update apt cache
   ansible.builtin.apt:
     update_cache: yes
   when: ansible_os_family == 'Debian'
+  tags:
+    - software
+    - install
 
 - name: enable epel repo
   block:
@@ -28,6 +33,9 @@
   when:
     - "ansible_facts['os_family'] == 'RedHat'"
     - "not ansible_facts['distribution'] == 'Fedora'"
+  tags:
+    - software
+    - install
 
 - name: ensure basic software packages are installed
   ansible.builtin.package:
