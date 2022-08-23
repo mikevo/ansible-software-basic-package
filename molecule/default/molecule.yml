@@ -1,13 +1,15 @@
 ---
 dependency:
   name: galaxy
+  options:
+    force: false
 driver:
   name: docker
 platforms:
   - name: basic-centos7
     image: "centos:7"
     pre_build_image: true
-  - name: basic--almalinux8
+  - name: basic-almalinux8
     image: "almalinux:8"
     pre_build_image: true
   - name: basic-debian10
@@ -34,9 +36,4 @@ platforms:
   - name: basic-ubuntu2204
     image: "ubuntu:22.04"
     pre_build_image: true
-lint: |
-  set -e
-  yamllint .
-  ansible-lint
-  flake8
 role_name_check: 1
