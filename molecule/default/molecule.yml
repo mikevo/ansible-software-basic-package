@@ -18,6 +18,9 @@ platforms:
   - name: basic-debian11
     image: "debian:11"
     pre_build_image: true
+  - name: basic-debian12
+    image: "debian:12"
+    pre_build_image: true
   - name: basic-debian-testing
     image: "debian:testing"
     pre_build_image: true
