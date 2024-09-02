@@ -9,6 +9,7 @@ basic_software_packages:
   - bind9utils
   - bmon
   - borgbackup
+  - bpytop
   - ca-certificates
   - cron
   - debian-goodies

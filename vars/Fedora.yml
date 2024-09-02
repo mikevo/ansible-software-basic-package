@@ -5,6 +5,7 @@ basic_software_packages:
   - bash-completion
   - bmon
   - borgbackup
+  - bpytop
   - dnf-utils
   - dnf-plugin-system-upgrade
   - exa
